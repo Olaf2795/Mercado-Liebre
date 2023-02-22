@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+label{
+  font-family: 'Roboto', sans-serif;
+}
+
+ 
+.formulario {
+   display: flex; 
+   flex-direction: column;
+   width: 400px;
+   margin: auto;
+   padding: 20px 15px;
+   margin-top: 240px;
+  }
+
+ 
+
+  .estilo-formulario {
+    margin-bottom: 15px;
+    
+    
+  }
+
+ /*  .estilo-formulario label {
+    margin-bottom: 5px;
+    display: block;
+  } */
+
+  .estilo-formulario-input {
+    width: 100%;
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .boton{
+    background-color: rgb(38, 38, 167);
+    color: white;
+    border-color: rgb(38, 38, 167);
+    border-radius: 3px;
+    padding: 2px;
+  }
+
+  @media (min-width: 992px){
+    
+    .footer-section:hover i {
+      color: var(--amarillo)
+  }
+    }

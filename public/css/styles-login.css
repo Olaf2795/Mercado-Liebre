@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+        display: flex; 
+        flex-direction: column;
+        width: 400px;
+        margin: auto;
+        padding: 20px 15px;
+        margin-top: 250px;
+}
+
+.estilo-login{
+    margin-bottom: 25px;
+
+}
+
+.estilo-login-input {
+    width: 100%;
+    padding: 8px 8px;
+    border: none;
+  }
+
+  .boton{
+    background-color: grey;
+    color: white;
+    border-color: grey;
+    border-radius: 3px;
+    padding: 2px;
+    width: 100%;
+  }
+
+  .boton:hover{
+    background-color:#0022AA;
+    border-color: #0022AA;
+   
+   
+  }
+
+  @media (min-width: 992px){
+  .footer-section:hover i {
+    color: var(--amarillo)
+}
+  }
